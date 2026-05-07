@@ -1343,8 +1343,9 @@ class AplicacionFJ:                           # Clase principal de la aplicació
         tabla.pack(side="left", fill="both", expand=True)  # La tabla ocupa el resto del espacio
         return tabla                          # Retorna la tabla para guardar referencia
 
+
 if __name__ == "__main__":                    # Ejecuta 
     root = tk.Tk()                            # Crea la ventana raíz de Tkinter
     app  = AplicacionFJ(root)                 # Crea la aplicación pasando la ventana raíz
-    root.mainloop()                           # Inicia el bucle principal de eventos de Tkinter          
+    root.mainloop()                           # Inicia el bucle principal de eventos de Tkinter
 
